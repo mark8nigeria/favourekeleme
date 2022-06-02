@@ -48,16 +48,26 @@ body {
 }
 
 .hero header .items {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   color: white;
   width: 50%;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .hero header .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .hero header .nav .logo {
@@ -70,9 +80,12 @@ body {
 
 .hero header .nav-list {
   list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .hero header .nav-list .nav-item {
@@ -92,14 +105,22 @@ body {
 }
 
 .hero .banner_inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   height: 700px;
 }
 
 .hero .banner_inner .left {
-  flex: 1;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .hero .banner_inner .left_wrapper {
@@ -126,9 +147,15 @@ body {
 
 .hero .banner_inner .right {
   background: #02250A;
-  flex: 1;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .hero .banner_inner .right_wrapper {
@@ -153,3 +180,214 @@ body {
   bottom: 0;
   right: 134px;
 }
+
+.contents {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contents .left-side-green {
+  background-color: #02250A;
+  height: 632px;
+  width: 552px;
+  left: 93px;
+  top: 103px;
+  z-index: -1;
+  margin-left: 90px;
+}
+
+.contents .dirty-boy {
+  z-index: 1;
+  position: absolute;
+  width: 552px;
+  height: 635px;
+  left: 63px;
+  top: 74px;
+  margin-top: 700px;
+  margin-right: 300px;
+}
+
+.contents .play {
+  z-index: 2;
+  position: absolute;
+  width: 118px;
+  height: 118px;
+  left: 18.5rem;
+  top: 22rem;
+  margin-top: 700px;
+}
+
+.contents .right-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+}
+
+.contents .right-side h2 {
+  margin-left: 200px;
+  font-size: 48px;
+  font-weight: 900;
+  width: 641px;
+  height: 116px;
+  margin-bottom: 51px;
+}
+
+.contents .right-side p {
+  width: 572px;
+  height: 199px;
+  top: 1248px;
+  left: 720px;
+  font-weight: 400;
+  font-size: 18px;
+  margin-left: 200px;
+}
+
+.contents .right-side .report-2 {
+  background-color: #02250A;
+  position: absolute;
+  width: 259px;
+  height: 70px;
+  border-radius: 10px;
+  margin-left: 200px;
+  color: white;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.crisis {
+  background-color: #02250A;
+  height: 810px;
+  width: 100%;
+}
+
+.crisis .recent-reports {
+  color: white;
+  padding-left: 200px;
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.crisis .under-line {
+  background-color: white;
+  height: 11px;
+  width: 110px;
+  margin-left: 200px;
+}
+
+.crisis .pic-problems {
+  background-color: white;
+  width: 300px;
+  height: 424px;
+  margin-top: 60px;
+  border-radius: 10px;
+  margin-left: 30px;
+}
+
+.crisis .rectangle-6 {
+  margin-top: 10px;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+.crisis .pic-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.crisis .ogoni {
+  font-weight: 500;
+  font-size: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #02250A;
+}
+
+.crisis .date {
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 200px;
+  margin-bottom: 20px;
+}
+
+.crisis .text-ogini {
+  margin-bottom: 10px;
+}
+
+.crisis .ogoni-lga {
+  color: #02250A;
+}
+
+.crisis .see {
+  width: 259px;
+  height: 70px;
+  font-size: 18px;
+  font-weight: 400;
+  margin-left: 550px;
+  margin-top: 30PX;
+}
+
+.niger-delta .niger-d {
+  font-size: 48px;
+  font-weight: 400;
+  width: 705px;
+  height: 116px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container-last-image {
+  margin-right: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container-last-image .last-pic {
+  width: 317px;
+  height: 257px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 120px;
+}
+
+.desined {
+  width: 100%;
+  height: 92px;
+  background-color: #02250A;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 250px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.built {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #02250A;
+  color: white;
+  margin-top: 100px;
+}
+
+.matt {
+  font-weight: 800;
+}
+/*# sourceMappingURL=index.css.map */
